@@ -28,3 +28,19 @@ const url = "www.rezwan20%ahommed.com"
 console.log(url.replace("20%" , "-"));
 console.log(url.includes("rez"));
 console.log(url.split("20%"));
+
+
+
+const balance = 1234
+console.log(balance);
+const balance2 = new Number (5678)
+console.log(balance2);
+
+const convert  = balance.toString().length
+console.log(convert);
+const balance3 = 123.23
+console.log(balance3.toFixed());
+console.log(balance3.toPrecision(4));
+
+const lc = 1239994374932987742
+console.log(lc.toLocaleString("en-bd"));
