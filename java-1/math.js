@@ -15,3 +15,7 @@ const max = 6
 const value1 = Math.ceil(Math.random()*(max-min+1)+min
 )
 console.log(value1);
+
+
+
+

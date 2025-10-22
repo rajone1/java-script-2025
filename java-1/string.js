@@ -44,3 +44,4 @@ console.log(balance3.toPrecision(4));
 
 const lc = 1239994374932987742
 console.log(lc.toLocaleString("en-bd"));
+
