@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: whitesmoke;">
+    
+<div class="parent">
+
+<div class="day">sat</div>
+<div class="day">sun</div>
+<div class="day">mon</div>
+<div class="day">tues</div>
+
+
+
+</div>
+
+
+
+</body>
+
+<script>
+
+const parent1 = document.querySelector(".parent")
+
+// console.log(parent1);
+// console.log(parent1.children);
+// console.log(parent1.children[2].innerHTML);
+
+// loop
+
+for (let i = 0; i < parent1.children.length; i++) {
+    // console.log(parent1.children[i].innerHTML);
+    
+}
+// get parrent
+
+
+const getp = document.querySelector(".day")
+// console.log(getp);
+// console.log(getp.parentElement.innerHTML);
+console.log(getp.nextElementSibling.innerHTML);
+
+// chack all step
+
+console.log("Node:", parent1.childNodes);
+
+
+
+
+</script>
+
+</html>

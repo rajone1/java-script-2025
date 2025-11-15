@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- create function and add many atem -->
+
+<ul class="language">
+
+    <li>java script</li>
+</ul>
+
+</body>
+
+<script>
+
+    function create1 (lan) {
+let li = document.createElement("li")
+// console.log(li);
+li.innerHTML = `${lan}`
+
+const a = document.querySelector(".language")
+a.appendChild(li)
+}
+// create1("java")
+
+
+// more optemiged usable
+
+function createOptemiged(lan2) {
+    const li = document.createElement("li")
+const liadd = document.createTextNode(lan2)
+
+li.appendChild(liadd)
+
+document.querySelector(".language").appendChild(li)
+
+}
+
+createOptemiged("java")
+
+
+
+</script>
+
+
+
+
+</html>
