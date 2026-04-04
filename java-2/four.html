@@ -30,21 +30,51 @@ a.appendChild(li)
 
 // more optemiged usable
 
-function createOptemiged(lan2) {
+
+function create2(langname1) {
     const li = document.createElement("li")
-const liadd = document.createTextNode(lan2)
 
-li.appendChild(liadd)
+    const textnode = document.createTextNode(langname1)
 
-document.querySelector(".language").appendChild(li)
+    li.appendChild(textnode)
+
+ document.querySelector(".language").appendChild(li)
+
+
+
+
 
 }
+create2("rubi")
+create2("golang")
+create2("swift")
+create2("react")
 
-createOptemiged("java")
 
+
+// replace
+
+// const li = document.querySelector("li:last-child")
+// li.innerHTML= "java"
+
+// or
+
+const li = document.querySelector("li:nth-child(5)")
+
+li.outerHTML = "<li>swift lang</li>"
+
+
+
+<!-- remove -->
+
+ const blank = document.querySelector("li:first-child")
+
+// blank.remove()
 
 
 </script>
+
+
 
 
 

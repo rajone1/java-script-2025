@@ -25,7 +25,9 @@ if (true) {
         console.log(name + greed);
     }
 
+
     // console.log(greed);
+    
 }
 // console.log( name);
 
